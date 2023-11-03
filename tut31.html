@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on Selectors</title>
+    <style>
+        h1{
+            background-color: aqua;
+            font-weight: Bold;
+        }
+        /* div li{
+            color: violet;
+            background-color: cadetblue;
+        } */
+        /* div ul{
+            color: violet;
+            background-color: cadetblue;
+        } */
+        /* div >p{
+            color: violet;
+            background-color: cadetblue;
+        } */
+        div +p{
+            color: violet;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is more on Selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>
+                    <p>this is inside li</p>
+                </li>
+                <li>This is para will not affected</li>
+                <p>this para inside ul</p>
+            </ul>
+            <p>this is para inside div class row</p>
+        </div>
+        <p>this para inside div class container</p>
+    </div>    
+    <p>this is outside para</p>
+</body>
+</html>

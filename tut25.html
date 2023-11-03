@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion</title>
+    <style>
+        .container{
+            border: 2px solid royalblue;
+            background-color: aqua;
+            height: 3444px;
+        }
+        .box{
+            border: 2px solid greenyellow;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
+        #box3{
+            /* position: absolute;
+            /* position: relative; */
+            /* top: 20px; */
+            /* left: 20px; */ 
+             position: fixed;
+            /* right:4px; */
+            /* bottom: 12px; */
+            /* position: sticky; */
+            bottom:4px;            
+            left:4px;
+                        
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </div>
+    </body>
+</html>

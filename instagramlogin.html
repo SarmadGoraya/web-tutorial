@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="icon" type="image/x-icon" href="instagram.jpeg">
+    <style>
+        html {
+            margin: 55px;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            margin: 10px 10px;
+        }
+
+        section img {
+            margin: -15px 0px;
+            height: 620px;
+            width: 500px;
+        }
+
+        .header {
+            height: 400px;
+            width: 360px;
+            text-align: center;
+            border: 1px solid #cac3c3;
+        }
+
+        h1 {
+            padding: 30px 30px;
+            font-family: 'Billabong';
+        }
+
+        .form input {
+            width: 70%;
+            height: 28px;
+            margin: 3px 7px;
+
+        }
+
+        .btn {
+            margin: 12px;
+            width: 70%;
+            height: 35px;
+            border-radius: 12px;
+            background-color: #3bc3fa;
+            color: white;
+            border: none;
+        }
+
+        .separator {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 12px 54px;
+        }
+
+        .separator hr {
+            flex-grow: 1;
+            border: none;
+            height: 1px;
+            background-color: #ccc;
+        }
+
+        .separator .or-text {
+            padding: 0 10px;
+            font-weight: bold;
+        }
+
+        .facebook {
+            height: 40px;
+            padding: 0 20px;
+            background-color: white;
+            color: #3bc3fa;
+            border: none;
+            cursor: pointer;
+        }
+
+        .facebooklogo img {
+            height: 30px;
+            width: 31px;
+            margin-right: 8px;
+        }
+
+        ._ab37 {
+            display: inline-block;
+            vertical-align: sub;
+            color: #181872;
+        }
+
+        .Fp {
+            text-decoration: none;
+            font-size: small;
+            color: #181872;
+        }
+
+        .outside {
+            border: 1px solid gray;
+            margin-top: 33px;
+            padding: 18px;
+            border-color: #cac3c3;
+        }
+
+        .outside a {
+            text-decoration: none;
+            color: #3bc3fa;
+        }
+
+        .piclinks img {
+            height: 42px;
+            width: 138px;
+            padding: 11px 4px;
+            cursor: pointer;
+        }
+
+        .google {
+            background: url("#");
+        }
+
+        .microsoft {
+            background: url("#");
+        }
+
+        footer {
+            padding-top: 50px;
+            text-align: center;
+            font-size: small;
+            cursor: pointer;
+            color: #a5a1a1;
+        }
+
+        footer :hover {
+            text-decoration: underline;
+        }
+
+        footer span {
+            padding: 0px 10px;
+        }
+
+        .bottom {
+            margin-top: 20px;
+            border: none;
+        }
+
+        #language  {
+            border: none;
+            text-decoration: none;
+        }
+        .fl{
+            color: black;
+            cursor:text;
+            font-size:medium;
+        }
+        .fl :hover {
+            text-decoration:none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div><img src="home-phones-2x.png" alt=""></div>
+        <div class="header">
+            <h1 id="h1">
+                Instagram
+            </h1>
+            <form action="noaction.php" class="form">
+                <div>
+                    <input type="text" name="MyName" placeholder="Phone number, username or email">
+                </div>
+                <div>
+                    <input type="password" name="My role" placeholder="Password">
+                </div>
+                <button class="btn">
+                    Log in
+                </button>
+            </form>
+            <div class="separator">
+                <hr>
+                <div class="or-text">OR</div>
+                <hr>
+            </div>
+            <button class="facebook" type="button">
+
+                <span class="facebooklogo"><img src="facebooklogo-removebg-preview.png" alt=""></span>
+                <span class="_ab37">Log in with Facebook</span>
+
+            </button>
+            <br>
+            <br>
+            <a href="#" class="Fp">Forget Password?</a>
+            <div class="outside">
+                <span>Don't have an account?
+                    <a href="#">Sign up</a>
+                </span>
+            </div>
+            <p>Get the app.</p>
+            <div class="piclinks">
+
+                <img src="googleplay.png" alt="" class="google">
+                <img src="micrsoft.png" alt="" class="micrsoft">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <span>Meta</span><span>About</span><span>Blog</span><span>Jobs</span><span>API</span><span>Privacy</span><span>Term</span><span>Location</span><span>Instagram
+            Lite</span><span>Threads</span><span>Contact Uploading & Non-users</span><span>Meta Verified</span>
+        <div class="bottom">
+            <span>
+                <label for="Language">
+                    <select name="Language" id="language">
+                        <option value="English" selected>English</option>
+                        <option value="Urdu">Urdu </option>
+                        <option value="French">French</option>
+                        <option value="German">German</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Greeks">Greeks</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Arabic">Arabic</option>
+                    </select>
+                </label>
+            </span>
+            <span class="fl"> &#169;2023 Instagram from Meta</span>
+        </div>
+    </footer>
+</body>
+
+</html>
